@@ -2,13 +2,8 @@ import { Grid, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import Colors from "../constants/colors";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import CircleIcon from '@mui/icons-material/Circle';
-
-
-
 
 function NewsBar() {
-
 
   return (
     <Box sx={{

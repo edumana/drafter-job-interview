@@ -1,8 +1,5 @@
-import { Typography, Button } from "@mui/material";
 import { Box, Container } from "@mui/system";
-import NewsBar from "./NewsBar";
-import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
-import Colors from "../constants/colors";
+
 
 function HeroImage() {
 

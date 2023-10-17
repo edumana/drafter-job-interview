@@ -1,5 +1,3 @@
-
-
 import { Typography, Card, Grid, Button } from "@mui/material";
 import { Box, Stack } from "@mui/system";
 import Colors from "../constants/colors";

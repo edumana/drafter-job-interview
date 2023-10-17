@@ -1,4 +1,4 @@
-import { Grid, Typography } from "@mui/material";
+import { Grid } from "@mui/material";
 import { Box, Container } from "@mui/system";
 import FeatureBox from "./FeatureBox";
 import ThreeLineBox from "./ThreeLineBox";

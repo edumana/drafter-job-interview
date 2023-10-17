@@ -7,7 +7,6 @@ import FeaturesGrid from '../Components/FeaturesGrid';
 
 export default function Home() {
 
-
   return (
     <>
       <Box
