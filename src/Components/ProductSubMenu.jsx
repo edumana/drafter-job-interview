@@ -24,7 +24,8 @@ function ProductSubMenu({ productBoxPosition }) {
       borderColor: Colors.orMediumGray,
       borderRadius: 4,
       borderWidth: 0.6,
-      padding: 2
+      padding: 2,
+      zIndex: 100
     }}>
       <Grid container sx={{ display: 'flex', flex: 1, height: '100%', justifyContent: 'center', alignItems: 'center' }} spacing={2}>
         <Grid item sm={6} sx={{ display: 'flex', flex: 1 }}>
