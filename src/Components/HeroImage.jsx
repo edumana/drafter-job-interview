@@ -16,7 +16,7 @@ function HeroImage() {
         component='img'
         src='hero.png'
         alt='logo'
-        width={900}
+        width={'60%'}
         sx={{ }}
       />
     </Container>

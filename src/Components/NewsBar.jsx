@@ -15,7 +15,8 @@ function NewsBar() {
       color: Colors.orMediumGray,
       borderRadius: 4,
       padding: 0.5, 
-      backgroundColor: '#FFF'
+      backgroundColor: '#FFF',
+      marginTop: 2,
     }}>
       <Grid container spacing={0}>
         <Grid item sm={4} sx={{ 

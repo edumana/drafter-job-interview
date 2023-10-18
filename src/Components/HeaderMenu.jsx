@@ -10,7 +10,6 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
-import AdbIcon from '@mui/icons-material/Adb';
 import { useRef, useState } from 'react';
 import Colors from '../constants/colors';
 import fontSettings from '../constants/fontSettings';
@@ -120,7 +119,6 @@ function HeaderMenu() {
               ))}
             </Menu>
           </Box>
-          <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
           <Typography
             variant='h5'
             noWrap
@@ -130,14 +128,15 @@ function HeaderMenu() {
               mr: 2,
               display: { xs: 'flex', md: 'none' },
               flexGrow: 1,
-              fontFamily: 'monospace',
+              fontFamily: 'Inter',
               fontWeight: 700,
-              letterSpacing: '.3rem',
+              letterSpacing: '0rem',
               color: 'inherit',
               textDecoration: 'none',
+              fontSize: fontSettings.xl
             }}
           >
-            LOGO
+            Untitled UI
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
